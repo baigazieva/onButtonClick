@@ -1,0 +1,68 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+.container{
+    margin:auto;
+    text-align:center;
+    margin: 100px;
+    
+  }
+  .cancel{
+     border-radius: 5px;
+     background-color: red;
+     cursor: pointer;
+     
+  }
+  .cancel:hover{
+    background-color:white;
+  }
+  
+  
+  .accept{
+     border-radius: 5px;
+     background-color:#006400;
+     cursor: pointer;
+  } 
+
+  .modal{
+      position: relative;
+  }
+  div{
+      border: 1px solid grey;
+      float: right;
+      border-radius: 5px; */
+         color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+        padding: .75rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        width: 500px;
+        margin-bottom: 1rem;
+        display: none;
+        margin-left:100%; */
+        transition: ;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+        /* animation: mymove infinite 10s linear; */
+
+  }
+  /* @keyframes mymove{
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+  } */
+  
+  
+  
+  
+  .thankyou {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 1s;
+    /* transition-timing-function: linear; */
+    transition-delay: 1s;
+}
+      
